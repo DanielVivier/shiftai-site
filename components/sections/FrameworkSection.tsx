@@ -12,7 +12,7 @@ export default function FrameworkSection() {
     <section id="sec-02" className="border-t-2 border-ink px-8 md:px-16 py-20">
       <div className="max-w-6xl mx-auto">
         <div className="tiny-mono mb-4">02 · The Framework</div>
-        <h2 className="font-sans text-2xl md:text-3xl font-bold leading-snug mb-2 max-w-xl">
+        <h2 className="headline text-4xl md:text-5xl lg:text-[56px] mb-2 max-w-xl">
           Every task in your business sits in one of four boxes.
         </h2>
         <p className="font-sans text-base text-grey-3 mb-12 max-w-lg">

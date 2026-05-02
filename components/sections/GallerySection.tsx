@@ -20,7 +20,7 @@ export default function GallerySection({ employees }: { employees: Employee[] })
     <section id="sec-04" className="border-t-2 border-ink px-8 md:px-16 py-20">
       <div className="max-w-6xl mx-auto">
         <div className="tiny-mono mb-4">04 · The AI employees I'm busy building</div>
-        <h2 className="font-sans text-2xl md:text-3xl font-bold leading-snug mb-2">
+        <h2 className="headline text-4xl md:text-5xl lg:text-[56px] mb-2">
           The workshop floor.
         </h2>
         <p className="font-sans text-base text-grey-3 mb-8">
