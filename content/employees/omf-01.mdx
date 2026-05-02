@@ -1,0 +1,61 @@
+---
+code: "OMF-01"
+name: "Oh My Fudge WhatsApp Concierge"
+role: "WhatsApp Concierge"
+employer: "Oh My Fudge"
+type: "Autonomous"
+zone: "br"
+status: "In build"
+savings: "~25 hrs / week"
+---
+
+## The Brief
+
+Oh My Fudge is a premium fudge brand based in Cape Town. Their WhatsApp inbox is a firehose — wholesale enquiries, retail orders, gifting requests, stockist questions, and the odd complaint. Every message needs a human-sounding response within hours or the sale evaporates.
+
+The founder was spending 2–3 hours a day just reading and replying to WhatsApp messages. High repetition. Low judgment. Classic BR zone.
+
+## What the AI Employee Does
+
+- Monitors the WhatsApp Business inbox 24/7
+- Classifies each incoming message by type (order, enquiry, complaint, stockist request)
+- Drafts and sends the appropriate response from a library of approved templates
+- Escalates anything that needs a human decision to the founder via a summary ping
+- Logs every interaction to a simple spreadsheet for review
+
+## Capabilities
+
+- Handle 80–90% of inbound WhatsApp messages without human input
+- Respond within 5 minutes, any time of day
+- Maintain brand voice across every interaction
+- Surface weekly summary: message volume, response rate, escalations
+
+## Out of Scope
+
+- Bespoke wholesale negotiations (escalated to founder)
+- Complaints requiring refunds or replacements (escalated)
+- New product enquiries before launch (held for founder response)
+
+## Build Phases
+
+**Phase 1 — Map the inbox** · Audit 3 months of message history. Classify every message type. Identify the 80% that are templatable.
+
+**Phase 2 — Template library** · Co-write response templates with the founder. Every template approved before deployment.
+
+**Phase 3 — Connect and supervise** · Wire up WhatsApp Business API. Run in shadow mode — AI drafts, founder reviews and approves. Two weeks.
+
+**Phase 4 — Autonomous** · Founder reviews weekly summary only. AI runs the inbox.
+
+## Founder Note
+
+> "I used to dread opening WhatsApp on Monday morning. Now I open a one-page summary instead."
+
+## Behind the Scenes
+
+**Platform:** WhatsApp Business API via Twilio + Claude for message classification and drafting.
+
+**Trickiest bit:** Teaching the AI the difference between a retail customer and a wholesale buyer — the response tone is completely different, but the messages can look identical at first glance.
+
+## The Comparable
+
+Replacing this with a part-time VA would cost ~R8,000/month. The AI employee costs a fraction of that, works 24/7, and never has an off day.
