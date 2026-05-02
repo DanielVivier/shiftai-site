@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import NavDropdown from '@/components/NavDropdown';
 import FrameworkSection from '@/components/sections/FrameworkSection';
 import GallerySection from '@/components/sections/GallerySection';
@@ -18,14 +19,16 @@ export default function Home() {
       {/* ── SEC 01 · HERO ────────────────────────────────────── */}
       <section id="sec-01" className="px-8 md:px-16 py-20 md:py-28">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 md:gap-16 items-start">
-          {/* Photo placeholder */}
+          {/* Photo */}
           <div className="shrink-0">
-            <div
-              className="overflow-hidden border-2 border-ink placeholder"
-              style={{ width: 200, height: 200, borderRadius: '50%' }}
-            >
-              <span className="text-xs text-grey-3 font-mono text-center">daniel.jpg</span>
-            </div>
+            <Image
+              src="/daniel.jpg"
+              alt="Daniel Vivier"
+              width={200}
+              height={200}
+              className="rounded-full border-2 border-ink object-cover"
+              priority
+            />
           </div>
 
           {/* Text */}
